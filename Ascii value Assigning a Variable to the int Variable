@@ -1,0 +1,24 @@
+# Ascii conversion
+# Assigning a Variable to the int Variable
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the Character 1 :");
+		char first_Alpha=sc.next().charAt(0);
+		System.out.print("Enter the Character 2 :");
+		char sec_Alpha=sc.next().charAt(0);
+		int ascii_First=first_Alpha;
+		int ascii_Second=sec_Alpha;
+		System.out.println(first_Alpha+" "+"Ascii value is ="+ascii_First);
+		System.out.println(sec_Alpha+" "+"Ascii value is ="+ascii_Second);
+	}
+}
+
+OUTPUT:
+Enter the Character 1 :a
+Enter the Character 2 :A
+a Ascii value is =97
+A Ascii value is =65
