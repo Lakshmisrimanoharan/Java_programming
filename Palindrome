@@ -1,0 +1,34 @@
+# palindrome
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the value :");
+		int n=sc.nextInt();
+		int temp=n;
+		int remainder,sum=0;
+		while(n>0)
+		{
+		    remainder=n % 10;
+		    sum=sum * 10 + remainder;
+		    n=n /10;
+		}
+		if(temp==sum)
+		{
+		    System.out.println("Palindrome Number");
+		}
+		else
+		{
+		    System.out.print("Not a Palindrome Number");
+		}
+	}
+}
+
+Output :
+Enter the value :454
+Palindrome Number
+
+Enter the value : 345
+Not a palindrome Number
