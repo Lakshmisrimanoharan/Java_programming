@@ -1,0 +1,17 @@
+#Ascii conversion using type casting
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the character_1 :");
+		char ch1=sc.next().charAt(0);
+		int ascii_1=(int)ch1;
+		System.out.println(ascii_1);
+		System.out.print("Enter the character_2 :");
+		char ch2=sc.next().charAt(0);
+		int ascii_2=(int)ch2;
+		System.out.println(ascii_2);
+	}
+}
