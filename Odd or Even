@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number:");
+		int value=sc.nextInt();
+		if(value%2==0)
+		{
+		    System.out.println("The Given Number Even");
+		}
+		else
+		{
+		    System.out.println("The Given Number Odd");
+		}
+		
+	}
+}
+
+OUTPUT:
+Enter the number : 5
+The Given Number Odd
+
+Enter the number : 6
+The Given Number Even
