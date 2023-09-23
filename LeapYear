@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the Year to check whether the given year is leapyear or not :");
+		int Year=sc.nextInt();
+		if(Year%4==0)
+		{
+		    System.out.println("The Given year is LeapYear");
+		}
+		else
+		{
+		    System.out.println("The Given year is notLeapYear");
+		}
+		
+	}
+}
+
+OUTPUT :
+Enter the Year to check whether the given year is leapyear or not :2004
+The Given year is LeapYear
