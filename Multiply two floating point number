@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+    System.out.print("Enter the value_1:");
+		float valueOfNum_1=sc.nextFloat();
+    System.out.print("Enter the value_2:");
+		float valueOfNum_2=sc.nextFloat();
+		System.out.print("Answer = " + valueOfNum_1*valueOfNum_2);
+	}
+}
+
+OUTPUT :
+Enter the value_1:4.2
+Enter the value_2:8.9
+Answer = 37.379997
