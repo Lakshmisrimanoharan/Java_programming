@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int value_1=sc.nextInt();
+		int value_2=sc.nextInt();
+		int temp;
+		System.out.println("The values before swapping:"+value_1+" "+value_2);
+		value_1=value_1 ^ value_2;
+		value_2=value_1 ^ value_2;
+		value_1=value_1 ^ value_2;
+		System.out.println("The values after swapping:"+value_1+" "+value_2);
+	}
+
+}
+output:
+23  98
+The values before swapping: 23 98
+The values after swapping :98 23
